@@ -3,4 +3,4 @@ Our dual-modal data is loaded through Dual_stream_data_loading.py, please copy t
 ![7](https://user-images.githubusercontent.com/88175740/234747830-ceecfb79-9a57-4b5a-8339-41b87c4c7c8f.jpg)
 
 
-SP-Tracker is a simple and strong online multi-object tracker in Nearshore Environments.We built SP-Tracker on the source code of OC-SORT.
+SP-Tracker is a simple and strong online multi-object tracker in Nearshore Environments.We built SP-Tracker on the source code of OC-SORT, as shown in SP-Tracker/SP_with_OC.py. We evaluate the entire pipeline through the TrackEval library, which is also uploaded in the repository.
