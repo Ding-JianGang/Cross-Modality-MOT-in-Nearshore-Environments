@@ -1,4 +1,4 @@
-## Since MMDetection cannot directly read dual-modality data, we rewrote coco_video_dataset.py to read our cross-modality data by reading reference frames.
+## Since MMDetection cannot directly read dual-modality data, we rewrote coco_video_dataset.py to read our cross-modality data by reading reference frames. At the same time, we need to replace site-packages/torch/utils/data/dataloader.py with the dataloader.py and replace mmtracking-1.0.0rc1\mmtrack\datasets\transforms\formatting.py with the formatting.py of this project.
 
 ## Official Code for Joint Deformable Attention and Spatial Position Tracker for Cross-Modality Multiple Object Tracking in Nearshore Environments.
 Our dual-modal data is loaded through Dual_stream_data_loading.py, please copy this file to mmtracking-1.0.0rc1\configs\_base_\datasets.The Cross-Modality Feature Fusion module is integrated in Resnet_Bi-attention.py. Copy it into the mmcv repository to train.
