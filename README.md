@@ -1,4 +1,4 @@
-### Our laboratory cluster is undergoing maintenance at the beginning of the semester and will be out of service for a week. Revised items will be released upon call.
+# Our laboratory cluster is undergoing maintenance at the beginning of the semester and will be out of service for a week. Revised items will be released upon call.
 ## Since MMDetection cannot directly read dual-modality data, we rewrote coco_video_dataset.py to read our cross-modality data by reading reference frames. At the same time, we need to replace site-packages/torch/utils/data/dataloader.py with the dataloader.py and replace mmtracking-1.0.0rc1\mmtrack\datasets\transforms\formatting.py with the formatting.py of this project.
 
 ## Official Code for Joint Deformable Attention and Spatial Position Tracker for Cross-Modality Multiple Object Tracking in Nearshore Environments.
