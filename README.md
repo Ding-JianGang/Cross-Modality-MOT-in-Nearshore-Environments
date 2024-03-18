@@ -1,1 +1,1 @@
-
+## Upon further acceptance of our work "Learning to Follow Ground Truth Guidance for Cross-domain Diffusion-based Nearshore Image Translation," we will release a large-scale cross-modal dataset for nearshore environments and further open-source our efforts.
